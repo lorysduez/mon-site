@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDF6ED;
+    color: #5C2C1D;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #EEDDC7;
+}
+
+.logo {
+    height: 100px;
+}
+
+.slogan {
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+.cookies-section {
+    padding: 2em;
+    background-color: #FDF6ED;
+}
+
+.cookie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.cookie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cookie-card h3 {
+    margin-top: 0;
+    color: #5C2C1D;
+}
+
+.cookie-card span {
+    font-weight: bold;
+    display: block;
+    margin-top: 1em;
+}
+
+.monthly-cookie {
+    padding: 2em;
+    background-color: #EEDDC7;
+    text-align: center;
+}
+
+.contact {
+    padding: 2em;
+    text-align: center;
+    background-color: #FDF6ED;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #EEDDC7;
+    font-size: 0.9em;
+}
